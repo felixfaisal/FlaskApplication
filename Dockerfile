@@ -5,6 +5,7 @@ WORKDIR /code
 # Export env variables.
 ENV FLASK_APP app.py
 ENV FLASK_RUN_HOST 0.0.0.0
+ENV FLASK_ENV production
 ###
 
 
